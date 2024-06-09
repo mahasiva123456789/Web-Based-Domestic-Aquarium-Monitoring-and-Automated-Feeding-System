@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sensor Data Monitor</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <h1>DOMESTIC AQUARIUM MONITORING</h1>
+    </header>
+
+    <div class="body-container">
+        <!-- TEMPERATURE  -->
+        <div class="temp-body">
+            <div class="page-wrapper">
+                <div class="circle-wrapper">
+                    <div class="warning circle"></div>
+                    <div class="icon">
+                        <div class="temperature" id="temperature" style="font-size: 30px;">0ºC</div>
+                    </div>
+                </div>
+                <div class="temp-details">
+                    <div class="alert" id="alert">Loading...</div>
+                    <div class="led" id="led">LED ON/OFF</div>
+                </div>
+            </div>
+        </div>
+        <!-- WATER LEVEL -->
+        <div class="water-body">
+            <div class="container">
+                <div class="water"></div>
+            </div>
+            <div class="water-details">
+                <div class="data">
+                    <div class="distance" id="distance">Loading...</div>
+                </div>
+                <div class="message" id="message">Water level indicating</div>
+            </div>
+        </div>
+    </div>
+    <!-- FOOD FEEDER -->
+    <div class="food-feeder">
+        <img src="assets/fish-food.gif" alt="FishFood">
+        <h1>FEEDING...</h1>
+    </div>
+</body>
+
+</html>
